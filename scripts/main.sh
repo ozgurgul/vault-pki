@@ -14,12 +14,12 @@ __root="$(cd "$(dirname "${__dir}")" && pwd)"
 
 DOWNLOAD_HOME="${__root}/downloads"
 
-VAULT_VERSION="1.0.3"
+VAULT_VERSION="1.12.0"
 VAULT_BIN="${__root}/vault"
 VAULT_PID=${__root}/vault.pid
 
-KAFKA_VERSION="2.1.0"
-SCALA_VERSION="2.11"
+KAFKA_VERSION="2.8.2"
+SCALA_VERSION="2.13"
 KAFKA_HOME=${__root}/kafka_${SCALA_VERSION}-${KAFKA_VERSION}
 KAFKA_BIN=${KAFKA_HOME}/bin
 KAFKA_NODE_SIZE=3
